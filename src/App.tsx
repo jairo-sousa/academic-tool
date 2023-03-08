@@ -1,7 +1,11 @@
+import { Header } from "./components/Header";
+
 export function App() {
 	return (
-		<div className="App">
-			<h1>TODO APP</h1>
-		</div>
+		<>
+			<Header />
+			<p style={{ height: "100%" }}>Router View</p>
+			<p style={{ height: "11.6rem" }}>Footer</p>
+		</>
 	);
 }
