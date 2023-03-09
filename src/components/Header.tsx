@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import { Logo } from "./Logo";
 import { Nav } from "./Nav";
 
@@ -15,7 +15,7 @@ export function Header() {
 		>
 			<Logo />
 			<Nav />
-			<p>Profile</p>
+			<Box bg="#D9D9D9" w="6rem" h="6rem" borderRadius="50%"></Box>
 		</Flex>
 	);
 }

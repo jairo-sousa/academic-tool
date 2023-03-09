@@ -33,6 +33,7 @@ export function Nav() {
 							borderBottom={route.isActive ? "0.1rem solid #8257E6" : ""}
 							justify="center"
 							align="center"
+							fontSize="2rem"
 						>
 							{route.name}
 						</Flex>
