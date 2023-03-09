@@ -1,4 +1,6 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+
+import { RouteLink } from "./RouteLink";
 
 export function Nav() {
 	const routes = [
@@ -23,23 +25,7 @@ export function Nav() {
 		<Flex as="nav" h="100%" w="100%" justify="center">
 			<Flex as="ul" h="100%" cursor="pointer">
 				{routes.map((route, i) => {
-					return (
-						<Flex
-							key={`${route.name} - ${i}`}
-							as="li"
-							listStyleType="none"
-							h="100%"
-							p="0 3.3rem"
-							justify="center"
-							align="center"
-							fontSize="2rem"
-							fontWeight={route.isActive ? 700 : 400}
-							borderBottom={route.isActive ? "0.1rem solid #8257E6" : ""}
-							color={!route.isActive ? "#737380" : ""}
-						>
-							{route.name}
-						</Flex>
-					);
+					return <RouteLink key={`${route.name} - ${i}`} route={route} />;
 				})}
 			</Flex>
 		</Flex>
