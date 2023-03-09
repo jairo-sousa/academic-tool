@@ -5,6 +5,7 @@ export function Footer() {
 		<Flex
 			as="footer"
 			h="10rem"
+			w="100%"
 			bg="#202024"
 			align="center"
 			justify="center"

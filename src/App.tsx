@@ -1,11 +1,12 @@
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
+import { Home } from "./routes/Home";
 
 export function App() {
 	return (
 		<>
 			<Header />
-			<p style={{ height: "100%" }}>.</p>
+			<Home />
 			<Footer />
 		</>
 	);

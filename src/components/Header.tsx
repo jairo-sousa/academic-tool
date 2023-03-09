@@ -19,8 +19,8 @@ export function Header() {
 				pos="absolute"
 				right="12rem"
 				bg="#D9D9D9"
-				w="6rem"
-				h="6rem"
+				w="5.2rem"
+				h="5.2rem"
 				borderRadius="50%"
 			></Box>
 		</Flex>
