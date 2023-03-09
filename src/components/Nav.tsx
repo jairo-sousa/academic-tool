@@ -30,9 +30,12 @@ export function Nav() {
 							listStyleType="none"
 							h="100%"
 							p="0 3.3rem"
-							borderBottom={route.isActive ? "0.1rem solid #8257E6" : ""}
 							justify="center"
 							align="center"
+							fontSize="2rem"
+							fontWeight={route.isActive ? 700 : 400}
+							borderBottom={route.isActive ? "0.1rem solid #8257E6" : ""}
+							color={!route.isActive ? "#737380" : ""}
 						>
 							{route.name}
 						</Flex>
