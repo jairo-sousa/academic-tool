@@ -8,7 +8,7 @@ export function Header() {
 			as="header"
 			justify="space-between"
 			w="100%"
-			h="11.6rem"
+			h="10rem"
 			bg="#202024"
 			align="center"
 			pos="relative"
