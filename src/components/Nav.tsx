@@ -20,7 +20,7 @@ export function Nav() {
 		},
 	];
 	return (
-		<Box as="nav" h="100%">
+		<Flex as="nav" h="100%" w="100%" justify="center">
 			<Flex as="ul" h="100%" cursor="pointer">
 				{routes.map((route, i) => {
 					return (
@@ -40,6 +40,6 @@ export function Nav() {
 					);
 				})}
 			</Flex>
-		</Box>
+		</Flex>
 	);
 }

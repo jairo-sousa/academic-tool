@@ -6,6 +6,8 @@ export function Logo() {
 			fontFamily="'Montserrat', sans-serif"
 			fontWeight={700}
 			fontSize="3.2rem"
+			pos="absolute"
+			left="12rem"
 		>
 			ACADEMIC
 		</Box>

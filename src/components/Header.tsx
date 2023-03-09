@@ -9,13 +9,20 @@ export function Header() {
 			justify="space-between"
 			w="100%"
 			h="11.6rem"
-			p="0 12rem"
 			bg="#202024"
 			align="center"
+			pos="relative"
 		>
 			<Logo />
 			<Nav />
-			<Box bg="#D9D9D9" w="6rem" h="6rem" borderRadius="50%"></Box>
+			<Box
+				pos="absolute"
+				right="12rem"
+				bg="#D9D9D9"
+				w="6rem"
+				h="6rem"
+				borderRadius="50%"
+			></Box>
 		</Flex>
 	);
 }
