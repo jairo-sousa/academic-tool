@@ -6,7 +6,7 @@ export function App() {
 		<>
 			<Header />
 			<p style={{ height: "100%" }}>.</p>
-			<p style={{ height: "11.6rem" }}>Footer</p>
+			<Footer />
 		</>
 	);
 }
