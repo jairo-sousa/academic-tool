@@ -1,31 +1,31 @@
 import { Flex } from "@chakra-ui/react";
 
-import { RouteLink } from "./RouteLink";
+import { NavbarLink } from "./NavbarLink";
 
 export function Nav() {
 	const routes = [
 		{
 			name: "HOME",
-			isActive: true,
+			to: "/",
 		},
 		{
 			name: "CLASSES",
-			isActive: false,
+			to: "/classes",
 		},
 		{
 			name: "DELIVERIES",
-			isActive: false,
+			to: "/deliveries",
 		},
 		{
 			name: "GRADES",
-			isActive: false,
+			to: "/grades",
 		},
 	];
 	return (
 		<Flex as="nav" h="100%" w="100%" justify="center">
 			<Flex as="ul" h="100%" cursor="pointer">
 				{routes.map((route, i) => {
-					return <RouteLink key={`${route.name} - ${i}`} route={route} />;
+					return <NavbarLink key={`${route.name} - ${i}`} route={route} />;
 				})}
 			</Flex>
 		</Flex>
