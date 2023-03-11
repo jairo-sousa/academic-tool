@@ -7,6 +7,7 @@ export function NextClass() {
 		<Flex direction="column" w="112rem" gap="1.5rem">
 			<RegressiveCounter />
 			<EventCard />
+			<EventCard />
 		</Flex>
 	);
 }
