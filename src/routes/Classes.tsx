@@ -1,6 +1,14 @@
 import { Flex, Heading } from "@chakra-ui/react";
+import { useEffect, useState } from "react";
+import { getClasses } from "../utils/getClasses";
+
+import { Class } from "../types/Class";
 
 export function Classes() {
+	const [classes, setClasses] = useState<Class[]>();
+	useEffect(() => {
+		getClasses(setClasses);
+	}, []);
 	return (
 		<Flex
 			height="100%"
@@ -10,9 +18,13 @@ export function Classes() {
 			align="center"
 			gap="6rem"
 		>
-			<Heading as="h3" fontSize="2rem">
-				Classes
-			</Heading>
+			{classes?.map((cls) => {
+				return (
+					<Heading as="h3" fontSize="3rem" key={cls.id}>
+						{cls.title}
+					</Heading>
+				);
+			})}
 		</Flex>
 	);
 }
