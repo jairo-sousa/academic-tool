@@ -1,0 +1,89 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "Name"
+		}
+	],
+	"classes": [
+		{
+			"id": 1,
+			"title": "Class1",
+			"professor": "professor1",
+			"place": "Room x, Block y",
+			"duration": {
+				"start": "march 1, 2023 00:00:00",
+				"end": "july 30, 2023 00:00:00"
+			},
+			"schedules": [
+				{
+					"day": "MONDAY",
+					"start": "18:00",
+					"end": "22:00"
+				},
+				{
+					"day": "TUESDAY",
+					"start": "18:00",
+					"end": "20:00"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Class2",
+			"professor": "professor2",
+			"place": "Room z, Block a",
+			"duration": {
+				"start": "march 1, 2023 00:00:00",
+				"end": "july 30, 2023 00:00:00"
+			},
+			"schedules": [
+				{
+					"day": "MONDAY",
+					"start": "13:30",
+					"end": "15:30"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Class3",
+			"professor": "professor2",
+			"place": "Room b, Block c",
+			"duration": {
+				"start": "march 1, 2023 00:00:00",
+				"end": "july 30, 2023 00:00:00"
+			},
+			"schedules": [
+				{
+					"day": "TUESDAY",
+					"start": "13:30",
+					"end": "15:30"
+				}
+			]
+		}
+	],
+	"deliveries": [
+		{
+			"id": 1,
+			"title": "Database project",
+			"delivery_method": "email: email@email.email",
+			"details": "Details",
+			"subject_id": 1
+		},
+		{
+			"id": 2,
+			"title": "Fron-end project",
+			"delivery_method": "email: email@email.email",
+			"details": "Details",
+			"subject_id": 1
+		},
+		{
+			"id": 3,
+			"title": "Back-end project",
+			"delivery_method": "email: email@email.email",
+			"details": "Details",
+			"subject_id": 2
+		}
+	]
+}
