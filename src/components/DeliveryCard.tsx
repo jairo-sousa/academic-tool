@@ -1,4 +1,5 @@
 import { Flex, Text } from "@chakra-ui/react";
+import { CardTitle } from "./CardTttle";
 
 export function DeliveryCard() {
 	return (
@@ -9,19 +10,7 @@ export function DeliveryCard() {
 			borderRadius="1rem"
 			mb="2rem"
 		>
-			<Flex bg="#182049" w="100%" borderRadius="1rem 1rem 0 0">
-				<Flex
-					as={Text}
-					fontSize="2.5rem"
-					fontWeight={600}
-					h="5rem"
-					w="100%"
-					justify="center"
-					align="center"
-				>
-					DS | Distributed systems
-				</Flex>
-			</Flex>
+			<CardTitle title="Delivery title" />
 			<Flex
 				direction="column"
 				w="100%"
