@@ -14,19 +14,7 @@
 			"duration": {
 				"start": "march 1, 2023 00:00:00",
 				"end": "july 30, 2023 00:00:00"
-			},
-			"schedules": [
-				{
-					"day": "MONDAY",
-					"start": "18:00",
-					"end": "22:00"
-				},
-				{
-					"day": "TUESDAY",
-					"start": "18:00",
-					"end": "20:00"
-				}
-			]
+			}
 		},
 		{
 			"id": 2,
@@ -36,14 +24,7 @@
 			"duration": {
 				"start": "march 1, 2023 00:00:00",
 				"end": "july 30, 2023 00:00:00"
-			},
-			"schedules": [
-				{
-					"day": "MONDAY",
-					"start": "13:30",
-					"end": "15:30"
-				}
-			]
+			}
 		},
 		{
 			"id": 3,
@@ -53,14 +34,7 @@
 			"duration": {
 				"start": "march 1, 2023 00:00:00",
 				"end": "july 30, 2023 00:00:00"
-			},
-			"schedules": [
-				{
-					"day": "TUESDAY",
-					"start": "13:30",
-					"end": "15:30"
-				}
-			]
+			}
 		}
 	],
 	"deliveries": [
@@ -84,6 +58,36 @@
 			"delivery_method": "email: email@email.email",
 			"details": "Details",
 			"subject_id": 2
+		}
+	],
+	"schedules": [
+		{
+			"id": 1,
+			"day": "MONDAY",
+			"start": "18:00",
+			"end": "22:00",
+			"class_id": 1
+		},
+		{
+			"id": 2,
+			"day": "TUESDAY",
+			"start": "18:00",
+			"end": "20:00",
+			"class_id": 1
+		},
+		{
+			"id": 3,
+			"day": "MONDAY",
+			"start": "13:30",
+			"end": "15:30",
+			"class_id": 2
+		},
+		{
+			"id": 4,
+			"day": "TUESDAY",
+			"start": "13:30",
+			"end": "15:30",
+			"class_id": 3
 		}
 	]
 }
