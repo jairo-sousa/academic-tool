@@ -13,16 +13,24 @@ export function EventCard() {
 				align="center"
 				p="1.5rem 4rem"
 			>
-				<Flex direction="column">
-					<Text fontSize="2.2rem" fontWeight={600}>
-						Marcio Espindola
-					</Text>
-					<Text fontSize="2.2rem" fontWeight={600}>
-						Room 5, Block 2 | 13:30 - 15:30
-					</Text>
-					<Text fontSize="1.5rem" fontWeight={600}>
-						00 days, 02 hours, 42minutes
-					</Text>
+				<Flex w="50%" justify="space-between">
+					<Flex direction="column">
+						<Text fontSize="3rem" fontWeight={600}>
+							Room 5, Block 2
+						</Text>
+						<Text fontSize="2.2rem" fontWeight={600}>
+							Marcio Espindola
+						</Text>
+					</Flex>
+
+					<Flex direction="column" align="end">
+						<Text fontSize="3rem" fontWeight={600}>
+							13:30 - 15:30
+						</Text>
+						<Text fontSize="2.2rem" fontWeight={600}>
+							In 2 hours
+						</Text>
+					</Flex>
 				</Flex>
 				<Flex
 					direction="column"
@@ -37,7 +45,7 @@ export function EventCard() {
 						API Project
 					</Text>
 					<Text fontSize="1.5rem" fontWeight={600}>
-						01 days, 02 hours, 40minutes
+						IN 1 Day
 					</Text>
 				</Flex>
 			</Flex>
